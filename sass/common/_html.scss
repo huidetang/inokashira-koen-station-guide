@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
+@use "../variable/a5-yoko-no-bleed";
+
 html {
   /* 組み方向 */
-  -webkit-writing-mode: $writing-mode;
-  -epub-writing-mode: $writing-mode;
-  writing-mode: $writing-mode;
+  -webkit-writing-mode: a5-yoko-no-bleed.$writing-mode;
+  -epub-writing-mode: a5-yoko-no-bleed.$writing-mode;
+  writing-mode: a5-yoko-no-bleed.$writing-mode;
 
   orphans: 1;
   widows: 1;

@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@use "../../variable/a5-yoko-no-bleed";
+
 /* 奥付 */
 .colophon {
   page: colophon;
@@ -9,12 +11,12 @@
   writing-mode: horizontal-tb;
 
   & > .colophon-content {
-    width: $paper-width - $nodo - $nodo;
-    height: $paper-height - $ten - $chi;
-    margin-left: $nodo;
-    margin-right: $nodo;
-    margin-top: $ten;
-    margin-bottom: $chi;
+    width: a5-yoko-no-bleed.$paper-width - a5-yoko-no-bleed.$nodo - a5-yoko-no-bleed.$nodo;
+    height: a5-yoko-no-bleed.$paper-height - a5-yoko-no-bleed.$ten - a5-yoko-no-bleed.$chi;
+    margin-left: a5-yoko-no-bleed.$nodo;
+    margin-right: a5-yoko-no-bleed.$nodo;
+    margin-top: a5-yoko-no-bleed.$ten;
+    margin-bottom: a5-yoko-no-bleed.$chi;
     break-before: avoid;
     break-after: avoid;
     break-inside: avoid;
@@ -30,7 +32,7 @@
     }
 
     & > .colophon-container {
-      width: 80%;
+      width: 95%;
       break-before: avoid;
       break-after: avoid;
       break-inside: avoid;
@@ -42,7 +44,7 @@
 
       & > .title {
         font-size: 1.25rem;
-        line-height: $base-line-height;
+        line-height: a5-yoko-no-bleed.$base-line-height;
         break-after: avoid;
         & span.subtitle {
           font-size: 0.7em;
