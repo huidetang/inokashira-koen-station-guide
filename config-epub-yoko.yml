@@ -19,7 +19,7 @@ backcover: backcover.xhtml
 titlefile: title.xhtml
 
 # 奥付は自作したXMTMLファイルを使う
-colophon: colophon.xhtml
+# colophon: false
 
 # 著者紹介は自作したXMTMLファイルを使う
 profile: profile.xhtml
