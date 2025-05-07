@@ -2,7 +2,7 @@
 
 井の頭公園は正式名称を「都立井の頭恩賜公園」といいます。
 
-//image[inokashiraike][井の頭池][scale=0.7]{
+//image[inokashiraike][井の頭池][scale=0.5]{
   井の頭池
 //}
 
