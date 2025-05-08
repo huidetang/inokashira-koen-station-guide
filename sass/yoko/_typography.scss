@@ -8,6 +8,8 @@ html {
   font-weight: normal;
   /* 行末揃え */
   text-align: justify;
+  word-break: break-all;
+  text-justify: inter-character;
   font-size: a5-yoko-no-bleed.$base-font-size;
   line-height: a5-yoko-no-bleed.$base-line-height;
   /* 約物の調整 */
