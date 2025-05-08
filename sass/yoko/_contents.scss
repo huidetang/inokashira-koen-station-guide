@@ -11,6 +11,7 @@ div.image {
   max-height: a5-yoko-no-bleed.$content-height;
   box-sizing: border-box;
   writing-mode: horizontal-tb;
+  margin: 10px;
 
   & > img {
     display: block;
