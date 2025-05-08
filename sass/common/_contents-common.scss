@@ -188,10 +188,6 @@ figure.tbl figcaption::before {
   counter-increment: footnote;
 }
   
-.footnote::footnote-call, .footnote::footnote-marker {
-  content: counter(footnote) ": ";
-}
-  
 .footnote::footnote-call {
   font-size: 80%;
   position: relative;
@@ -199,7 +195,6 @@ figure.tbl figcaption::before {
 }
   
 .footnote::footnote-marker {
-  content: counter(footnote);
   margin-right: 1em;
 }
 
