@@ -183,19 +183,23 @@ figure.tbl figcaption::before {
 
 /* 脚注 */
 .footnote {
+  float: footnote;
+  font-size: 80%;
   counter-increment: footnote;
 }
   
 .footnote::footnote-call, .footnote::footnote-marker {
-  content: "[" counter(footnote) "]";
+  content: counter(footnote) ": ";
 }
   
 .footnote::footnote-call {
   font-size: 80%;
-  margin: 0 .3rem;
+  position: relative;
+  inset-block-start: -0.5em;
 }
   
 .footnote::footnote-marker {
-  margin-right: .2rem;
+  content: counter(footnote);
+  margin-right: 1em;
 }
 
