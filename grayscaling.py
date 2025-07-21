@@ -2,7 +2,7 @@ import glob
 from os import getcwd
 from os.path import join
 
-from anshitsu.retouch import Retouch
+from anshitsu.process.processor import Processor
 
 from PIL import Image
 
@@ -18,7 +18,7 @@ def grayscaling(path: str):
         Image: 与えられたパスの画像をグレースケール化したもの
     """
     image = Image.open(path)
-    retouch = Retouch(image, grayscale=True)
+    retouch = Processor(image, grayscale=True)
     gray_image = retouch.process()
     return gray_image
 
@@ -35,15 +35,10 @@ def bundle_grayscaling(dir: str):
         path_list.extend(glob.glob(join(dir, ext)))
 
     for i in path_list:
-        try:
-            img = grayscaling(i)
-            img.save(i)
-        except IndexError:
-            print("以下のファイルを処理するときにエラーが発生しました。")
-            print(i)
-        finally:
-            print("ファイル処理が完了しました。")
-            print(i)
+        print(i)
+        img = grayscaling(i)
+        img.save(i)
+        print(i)
     return
 
 
