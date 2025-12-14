@@ -84,6 +84,9 @@
 
 ワールドが公開された当初電車は走っておらず、対応プラットフォームもPCのみでしたが、最近Khotyn Fortress@<fn>{Khotyn}やMariupol Twin Buildings@<fn>{Mariupol}などの3DGSワールドを製作している3DMarik氏の協力によってAndroid対応され、2025年11月5日のアップデートではとうとう電車が走り出しました。電車にはコライダーが設置されており、接触すると跳ね飛ばされる事故が発生します。
 
+//footnote[Khotyn][https://vrchat.com/home/world/wrld_2ccfe926-3b64-4522-97a1-9840f329f5b3]
+//footnote[Mariupol][https://vrchat.com/home/world/wrld_00979e98-88eb-41be-ae27-25ac2239db6b]
+
 == 鉄橋火災事件
 
 現在井の頭公園駅ではホームドアの設置工事と鉄橋の塗装塗り替え工事が行われていますが、2025年11月8日早朝、突如として駅吉祥寺方にある鉄橋下の鉄橋塗装工事用資材置き場から出火し、井の頭線がほぼ半日運休するという事態が発生しました。当時工事現場は無人であり、なぜ出火したのかは謎に包まれています。
